@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style-task2.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="title"><p>Данные получателя</p></div>
+      <div class="registration-card">
+        <form action="">
+          <input type="text" id="userSurname" class="card__cell card__cell_size-small" placeholder="Фамилия">
+          <input type="text" id="userName" class="card__cell card__cell_size-small" placeholder="Имя">
+          <input type="text" id="userLastname" class="card__cell card__cell_size-small" placeholder="Отчество">
+          <div class="number">
+            <input type="number" id="userPhone" class="card__cell card__cell_size-small" placeholder="Номер телефона">
+            <p class="some-information">По этому номеру телефона мы с вяжемся с вами для подтверждения заказа</p>
+          </div>
+          <div>
+            <input type="email" id="userEmail" class="card__cell card__cell_size-big" placeholder="E-mail">
+            <p class="some-information">На эту почту вам придет письмо с составом заказа, а так же трэк-номер для его отслеживания</p>
+          </div>
+        </form>
+      </div>
+      <form action="">
+        <label class="lable-for-mailing" for="">
+          <input type="checkbox" class="checkbox">
+          <p class="information-checkbox">Подписаться на рассылку новинок и акций</p>
+        </label>
+      </form>
+      <div class="title"><p>Способ оплаты</p></div>
+      <form class="" action="">
+        <label class="lable-for-payment" for="case-one">
+          <input type="radio" name="payment" class="radio">
+          <p class="information-checkbox">Оплата при получении наличными или картой</p>
+        </label>
+
+        <label class="lable lable-for-payment" for="case-two">
+          <input type="radio" name="payment" class="radio">
+          <p class="information-checkbox">Оплата банковской картой онлайн</p>
+        </label>
+      </form>
+
+
+
+    </div>
+  </section>
+
+</body>
+</html>
